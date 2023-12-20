@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WP Pusher Checkout</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">
+        <img src="images/wp-logo.png" alt="WP Pusher logo">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Download</a></li>
+        <li><a href="#">Learn More</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a class="btn"  href="#">Account</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="checkout">
+      <h1>Checkout</h1>
+      <!-- <div class="plan">
+        <h2>Freelancer</h2>
+        <span>$99</span>
+        <span>/ year</span>
+         <p>Automatically renews after 1 year</p>
+         <label for="features">
+          <span>Use on 5 client sites</span>
+          <input type="checkbox" id="features" checked>
+        </label>
+        <label for="private-repos">
+          <span>Private repositories</span>
+          <input type="checkbox" id="private-repos">
+        </label>
+        <p>Need 20 client sites? <a href="#">Switch to the Agency plan</a></p>
+      </div> -->
+      <div class="basic-info">
+        <div class="basic"> <img src="./images/1.svg" alt="">   <h3> Your Basic Information</h3></div>
+        
+       <div class="flexinput">
+        <div class="input-group">
+          <label for="first-name">First Name</label>
+          <input type="text" placeholder="Jane" id="first-name" required>
+        </div>
+        <div class="input-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" placeholder="Doe" id="last-name" required>
+        </div>
+      </div>
+        <div class="input-group mail">
+          <label for="email">E-mail</label>
+          <input type="email" placeholder="janedoe@example.com" id="email" required>
+        </div>
+        
+      </div>
+      <div class="payment-info">
+        <div class="pay">
+          <img src="./images/2.svg" alt="">
+          <h3>Your Payment Information</h3>
+        </div>
+        
+        <div class="input-group">
+          <label for="card-number">Credit Card</label>
+          <input type="number" placeholder="Card-Number" aria-placeholder="CSC" required>
+        </div>
+       
+      </div>
+      <div class="last-div">
+      <button type="submit">Buy WP Pusher</button>
+      <p class="testimonial">
+        <span> <strong>Need any help?</strong></span> Don’t hesitate to contact support!
+      </p>
+
+      <img src="./images/stripe.png">
+    </div>
+
+    
+    </section>
+    <aside id="sidebar">
+      <div class="gen-div">
+        <div class="free">
+          <h4>Freelancer</h4>
+          <div class="img-p">
+            <p>$</p>
+            <img src="./images/year.svg" alt="">
+          </div>
+
+          <p>Automatically renews <br> after 1 year</p>
+        </div>
+
+        <div class="check">
+          <div class="checks">
+            <img src="./images/check.png" alt="">
+            <p>Use on 5 client sites</p>
+          </div>
+          <div class="checks">
+            <img src="./images/check.png" alt="">
+            <p>Private Repositories</p>
+          </div>
+          <div class="checks">
+            <img src="./images/check.png" alt="">
+            <p>Email support</p>
+          </div>    
+        </div>
+
+        <div class="l-div">
+          <p>Need 20 client sites?</p>
+          <p>Switch to the Agency plan.</p>
+        </div>
+        <hr>
+
+        <div class="lastdiv">
+          <p>FTP is horrible to deal with. <br> WP Pusher solves that issue, <br> and the customer support is <br> awesome!</p>
+
+          <div>
+            <img src="./images/person.png" alt="">
+            <h5>Kirk Beard</h5>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+ 
+  <footer>
+    <p>&copy;2018 WP Pusher IVS .  <a href="#">Terms of Service</a></p>
+  </footer>
+</body>
+</html>
